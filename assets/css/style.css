@@ -647,11 +647,11 @@ display: flex;
   margin-bottom: 10px;
 }
 
-.blog__title a{
+.blog__title a {
   color: inherit; /*наслідує попередній елемент*/
   text-decoration: none;
 }
-.blog__title a::hover {
+.blog__title a:hover {
   text-decoration: underline;
 
 }
