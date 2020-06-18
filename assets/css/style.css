@@ -598,3 +598,10 @@ display: flex;
   font-style: italic;
   font-weight: 300;
 }
+
+.section--clients {
+  margin-bottom: 30px;
+  background: url("../images/devices-bg.jpg") center no-repeat;
+  background-size: cover;
+  padding-bottom: 0;
+}
