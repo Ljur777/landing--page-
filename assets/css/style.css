@@ -601,7 +601,80 @@ display: flex;
 
 .section--clients {
   margin-bottom: 30px;
-  background: url("../images/devices-bg.jpg") center no-repeat;
+  background: url("../images/clients-bg.jpg") center no-repeat;
   background-size: cover;
   padding-bottom: 0;
+}
+/*dorobtu*/
+
+/*blog*/
+.blog {
+  display: flex;
+  }
+.blog__header {
+  position: relative;
+  margin-bottom: 10px;
+  }
+.blog__photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.blog__date {
+  background-color: #95e1d3;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+.blog__date-day {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+}
+.blog__content {
+  margin-bottom: 10px;
+  }
+.blog__title {
+  font-size: 14px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.blog__title a{
+  color: inherit; /*наслідує попередній елемент*/
+  text-decoration: none;
+}
+.blog__title a::hover {
+  text-decoration: underline;
+
+}
+.blog__text {
+  font-size: 15px;
+  color: #9999999;
+}
+
+.blog__footer {
+  padding-top: 15px;
+  border-top: 1px solid #e5e5e5; /*лінія зверху*/
+    font-size: 15p;
+  font-weight: 300;
+  font-style: italic;
+  color: #99999;
+}
+
+.blog__stat__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+
+}
+.blog__stat__item i {
+  color: #95e1d3;
 }
