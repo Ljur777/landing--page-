@@ -716,7 +716,7 @@ display: flex;
 .blog__footer {
   padding-top: 15px;
   border-top: 1px solid #e5e5e5; /*лінія зверху*/
-    font-size: 15p;
+  font-size: 15p;
   font-weight: 300;
   font-style: italic;
   color: #99999;
@@ -735,12 +735,30 @@ display: flex;
   background: url("../images/map/map-bg.jpg") center no-repeat;
   background-size: cover;
 }
-.map-background {
-
-}
 .map {
-
+  display: block;
+  text-align: center;
+  color: rgb(216, 39, 39);
+  text-decoration: none;
 }
+
+.fas fa-map-marker-alt {
+  position: relative;
+}
+.open_map {
+  font-weight: bold;
+  
+}
+.open_map::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(216, 39, 39);
+  
+}
+
 
 /*Footer*/
 .footer {
