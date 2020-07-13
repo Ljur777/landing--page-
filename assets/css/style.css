@@ -612,6 +612,7 @@ display: flex;
   padding-bottom: 0;
 }
 
+
 .clients__item{
   flex: 1 1 0;
   padding-left: 85px;
@@ -660,10 +661,12 @@ display: flex;
 .blog {
   display: flex;
   }
+
  .blog__item {
    margin-left: 10px;
    margin-right: 10px;
  } 
+
 .blog__header {
   position: relative;
   margin-bottom: 10px;
@@ -716,7 +719,9 @@ display: flex;
 .blog__footer {
   padding-top: 15px;
   border-top: 1px solid #e5e5e5; /*лінія зверху*/
-  font-size: 15p;
+
+  font-size: 15pх;
+
   font-weight: 300;
   font-style: italic;
   color: #99999;
@@ -730,6 +735,7 @@ display: flex;
 }
 .blog__stat__item i {
   color: #95e1d3;
+
 }
 
 /*MAP*/
@@ -852,7 +858,7 @@ color: grey;
  background: #fff;
  border: 1px solid #e5e5e5;
  border-right: 0;
- color: gray;
+ color: grey;
  font-size: 15px;
  font-weight: 150;
  font-style: italic;
@@ -977,4 +983,7 @@ text-decoration: underline;
     font-size: 40px;
   }
 }
+
+
+
 
