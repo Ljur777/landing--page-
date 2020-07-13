@@ -9,8 +9,7 @@ body {
 *,
 *.before,
 *.after {
-  size
-
+  box-sizing: border-box;
 }
   hr{
     display: block;
@@ -763,7 +762,7 @@ display: flex;
 }
 .blog__text {
   font-size: 15px;
-  color: #9999999;
+  color: #999999;
 }
 
 .blog__footer {
@@ -772,7 +771,7 @@ display: flex;
   font-size: 15p;
   font-weight: 300;
   font-style: italic;
-  color: #99999;
+  color: #999999;
 }
 
 .blog__stat__item {
@@ -886,7 +885,7 @@ color: grey;
 .footer__title {
  margin: 30px 0;
  font-size: 14px;
- color: #3333333;
+ color: #333333;
  text-transform: uppercase;
  text-decoration: none;
 }
@@ -905,7 +904,7 @@ color: grey;
  background: #fff;
  border: 1px solid #e5e5e5;
  border-right: 0;
- color: gray;
+ color: #858383;
  font-size: 15px;
  font-weight: 150;
  font-style: italic;
@@ -955,11 +954,11 @@ padding-left: 20px;
 .blogs__title {
   display: block;
   margin-bottom: 5px;
-  color: #3333333;
+  color: #333333;
   font-size: 12px;
   line-height: 1.1;
   text-transform: uppercase;
-  text-secoration: none;
+  text-decoration: none;
 
 }
 .blogs__title:hover {
@@ -1041,7 +1040,8 @@ text-decoration: underline;
     padding: 8px 20px;
   }
   .nav__toggle {
-    
+    display: block;
+
   }
 
   .slider__text {
