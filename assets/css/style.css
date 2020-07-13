@@ -731,11 +731,18 @@ display: flex;
 .blog__stat__item i {
   color: #95e1d3;
 }
+
+/*MAP*/
 .section__map {
   background: url("../images/map/map-bg.jpg") center no-repeat;
   background-size: cover;
+  margin: 20px auto;
+  padding: 10px;
 }
 .map {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
   display: block;
   text-align: center;
   color: rgb(216, 39, 39);
@@ -747,7 +754,6 @@ display: flex;
 }
 .open_map {
   font-weight: bold;
-  
 }
 .open_map::after {
   content: "";
@@ -756,7 +762,6 @@ display: flex;
   display: block;
   margin: 20px auto;
   background-color: rgb(216, 39, 39);
-  
 }
 
 
@@ -765,19 +770,25 @@ display: flex;
   background-color: #f8f8f8;
 }
 .footer__inner {
-  display: flex;
+ display: flex;
  justify-content: space-between;
  padding-bottom: 50px;
 }
 
 .footer__col--first {
   width: 45%;
+  padding: 20px;
+  margin: 10px;
 }
 .footer__col--second {
   width: 30%;
+  padding: 20px;
+  margin: 10px;
 }
 .footer__col--third {
   width: 25%;
+  padding: 20px;
+  margin: 10px;
 }
 .footer__logo {
   margin-bottom: 30px;
@@ -787,8 +798,8 @@ display: flex;
 }
 .footer__text {
   margin-bottom: 30px;
-font-size: 16px;
-color: #9999999;
+ font-size: 16px;
+color: grey;
 }
 .footer__social {
   margin-bottom: 30px;
@@ -824,26 +835,26 @@ color: #9999999;
  font-size: 14px;
  color: #3333333;
  text-transform: uppercase;
-
+ text-decoration: none;
 }
 /*subcribe*/
 .subcribe {
   width: 100%;
-  max-width: 380px;
+  max-width: 250px;
   display: flex;
   height: 40px;
 }
 
 .subcribe__input {
-  padding: 10px;
+ padding: 10px;
  width: 55%;
  
  background: #fff;
  border: 1px solid #e5e5e5;
  border-right: 0;
- color: #333;
+ color: gray;
  font-size: 15px;
- font-weight: 300;
+ font-weight: 150;
  font-style: italic;
 }
 .subsribe__input::placeholder {
@@ -857,11 +868,9 @@ border-color: #95e1d3;
 .subcribe__btn {
   width: 40%;
   padding: 10px 30px;
-
   background-color: #95e1d3;
   border: 0;
   cursor: pointer;
-
   font-size: 14px;
   font-weight: 700;
   color: #fff;
@@ -968,3 +977,4 @@ text-decoration: underline;
     font-size: 40px;
   }
 }
+
