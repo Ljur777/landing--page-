@@ -9,7 +9,9 @@ body {
 *,
 *.before,
 *.after {
+
   box-sizing: border-box;
+  
 }
   hr{
     display: block;
@@ -664,6 +666,7 @@ display: flex;
   padding-bottom: 0;
 }
 
+
 .clients__item{
   flex: 1 1 0;
   padding-left: 85px;
@@ -712,10 +715,12 @@ display: flex;
 .blog {
   display: flex;
   }
+
  .blog__item {
    margin-left: 10px;
    margin-right: 10px;
  } 
+<
 .blog__header {
   position: relative;
   margin-bottom: 10px;
@@ -768,7 +773,9 @@ display: flex;
 .blog__footer {
   padding-top: 15px;
   border-top: 1px solid #e5e5e5; /*лінія зверху*/
-  font-size: 15p;
+
+  font-size: 15pх;
+
   font-weight: 300;
   font-style: italic;
   color: #999999;
@@ -782,7 +789,19 @@ display: flex;
 }
 .blog__stat__item i {
   color: #95e1d3;
+
 }
+.section__map {
+  background: url("../images/map/map-bg.jpg") center no-repeat;
+  background-size: cover;
+}
+.map-background {
+
+}
+.map {
+
+}
+
 
 /*MAP*/
 .section__map {
@@ -816,21 +835,20 @@ display: flex;
   background-color: rgb(216, 39, 39);
 }
 
-
 /*Footer*/
 .footer {
   background-color: #f8f8f8;
 }
 .footer__inner {
+
  display: flex;
+
  justify-content: space-between;
  padding-bottom: 50px;
 }
 
 .footer__col--first {
   width: 45%;
-  padding: 20px;
-  margin: 10px;
 }
 .footer__col--second {
   width: 30%;
@@ -850,8 +868,9 @@ display: flex;
 }
 .footer__text {
   margin-bottom: 30px;
+
  font-size: 16px;
-color: grey;
+color: gray;
 }
 .footer__social {
   margin-bottom: 30px;
@@ -882,6 +901,7 @@ color: grey;
   margin-left: 10px;
   text-decoration: none;
 }
+
 .footer__title {
  margin: 30px 0;
  font-size: 14px;
@@ -936,6 +956,7 @@ border-color: #95e1d3;
 
 .subcribe__btn:focus {
 outline: 0;}
+
 /*blogs*/
 .blogs__item {
   display: flex;
@@ -984,6 +1005,7 @@ text-decoration: underline;
 .instagram__item img {
   display: block;
 }
+
 /*copyright*/
 .coryright {
   padding: 20px 0;
@@ -1057,4 +1079,3 @@ text-decoration: underline;
     font-size: 40px;
   }
 }
-
