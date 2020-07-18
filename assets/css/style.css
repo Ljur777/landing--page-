@@ -614,6 +614,7 @@ background-color: red;
 }
 
 /*6page- works*/
+
 .works {
 display: flex;
 }
@@ -623,7 +624,15 @@ display: flex;
 .works__item {
   position: relative;
   background: linear-gradient(to bottom, #f38181, #fce38a);
+  transition: transform 0.5s linear;
 }
+.works__item:hover .works__image {
+  opacity: 0.2;
+ }
+
+.works__item:hover .works__info {
+  opacity: 1;}
+
 .works__image {
   display: block;
   max-width: 100%;
